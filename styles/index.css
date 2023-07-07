@@ -1,36 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
+.wrapper .sidebar{
+  background: rgb(5, 68, 104);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
 }
-
-header{
-    text-align: center;
-    height: 20vh;
-    padding: 5px;
-    color: white;
-    background-color: rgb(61, 45, 45);
-}
-
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    /* z-index: 1; */
-    /* top: 0; */
-    left: 0;
-    background-color: rgb(61, 45, 45);
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #bdb3b3;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
