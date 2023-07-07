@@ -38,9 +38,13 @@
         }
     
 
-    li, label, ul, a {
+    li, ul, a {
     width: 100%;
     color: rgb(255, 255, 255);
     display: block;
     font-weight: bold;
+    }
+
+    label{
+        display: block;
     }
